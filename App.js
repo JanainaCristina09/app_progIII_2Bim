@@ -40,6 +40,10 @@ export default function App() {
 
     <View style={styles.container}>
      
+     <View style={styles.estilo_titulo}>
+     <Text>CALCULADORA</Text> 
+     </View>
+
       <TextInput style={styles.estilo_visor}
        editable={false}
        value={dadosVisor}></TextInput>
@@ -151,6 +155,14 @@ const styles = StyleSheet.create({
     fontSize: 30,
     borderRadius: 10,
     backgroundColor: '#FFF2A6',
+  },
+
+  estilo_titulo: {
+    alignItems: 'center',
+    justifyContent: 'center',
+    width: '100%',
+    height: 100,
+    fontSize: 100,
   },
  
   view_linha: {
