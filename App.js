@@ -150,6 +150,7 @@ const styles = StyleSheet.create({
     height: '15%',
     fontSize: 30,
     borderRadius: 10,
+    backgroundColor: '#FFF2A6',
   },
  
   view_linha: {
@@ -166,6 +167,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     borderRadius: 10,
+    backgroundColor: '#FFF2A6',
   },
  
   texto_botao: {
